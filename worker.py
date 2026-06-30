@@ -85,7 +85,7 @@ def merge_csv_to_xlsx(xlsx_out: str, fields: list[str], sheet: str):
             data = read_csv(file_path)
             if data:
                 combined_data.extend(data)
-    sorted_data = sorted(combined_data, key=lambda x: int(x["name"]))
+    sorted_data = sorted(combined_data, key=lambda x: x["name"])
     # write_csv(, sorted_data, ["index", "name", "isin", "url"])
     # for item in combined_data:
     #    item.pop("sheet", None)
