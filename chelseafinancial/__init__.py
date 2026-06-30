@@ -134,6 +134,7 @@ def chelsea_total_pages() -> int:
         json_data = res.json()
         total_pages = ceil(json_data["TotalRows"] / 100)
         return total_pages
+    return 0
 
 
 def chelsea_runner() -> list[dict]:
