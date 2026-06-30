@@ -1,27 +1,31 @@
+import io
+import json
+import random
+import re
+import time
+from datetime import datetime
+from os.path import basename, dirname, join
+from pathlib import Path
 from random import uniform
 from time import sleep
-import time
-from curl_cffi import requests
-import random
-from pathlib import Path
-from os.path import join, dirname, basename
-from ua_generator.options import Options as OptionsUA
-from ua_generator.data.version import VersionRange
-from datetime import datetime
+
 import openpyxl
-import json
 import ua_generator
+from curl_cffi import requests
+from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.utils import get_column_letter
+from pypdf import PdfReader
+from ua_generator.data.version import VersionRange
+from ua_generator.options import Options as OptionsUA
 
 
-def get_random_user_agent() -> dict:
+def get_random_user_agent(platform: list[str] = ["windows"]) -> dict:
     options = OptionsUA()
     options.version_ranges = {
-        'chrome': VersionRange(140, 144),  # Choose version between 125 and 129
+        "chrome": VersionRange(140, 144),  # Choose version between 125 and 129
     }
-    ua = ua_generator.generate(
-        browser='chrome', platform='windows', options=options)
-    ua.headers.accept_ch(
-        "Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List")
+    ua = ua_generator.generate(browser="chrome", platform=platform, options=options)
+    ua.headers.accept_ch("Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List")
     # return ua.headers.get()
     headers = ua.headers.get()
     return {k.title(): v for k, v in headers.items()}
@@ -29,6 +33,7 @@ def get_random_user_agent() -> dict:
 
 def delay(min: float, max: float):
     sleep(uniform(min, max))
+
 
 def clean_spreadsheet(filename: str) -> None:
     wb = openpyxl.load_workbook(filename)
@@ -66,12 +71,15 @@ def read_json(filename: str):
         return json.load(f)
 
 
-def fetch_with_backoff(url, headers=get_random_user_agent(), cookies=None, max_retries=5, base_delay=2):
+def fetch_with_backoff(
+    url, headers=get_random_user_agent(), cookies=None, max_retries=5, base_delay=2
+):
     for attempt in range(max_retries):
         try:
             # Using curl_cffi to mimic a real browser (e.g., Chrome)
             response = requests.get(
-                url, headers=headers, cookies=cookies, impersonate="chrome", timeout=10)
+                url, headers=headers, cookies=cookies, impersonate="chrome", timeout=10
+            )
 
             # If successful, return the response
             if response.status_code == 200:
@@ -80,18 +88,18 @@ def fetch_with_backoff(url, headers=get_random_user_agent(), cookies=None, max_r
             # If we hit rate limits or server errors, we should retry
             if response.status_code in [429, 500, 502, 503, 504]:
                 print(
-                    f"Attempt {attempt + 1} failed with status {response.status_code}. Retrying...")
+                    f"Attempt {attempt + 1} failed with status {response.status_code}. Retrying..."
+                )
             else:
                 # For 404 or 403, retrying usually won't help
-                print(
-                    f"Permanent error {response.status_code}. Skipping retries.")
+                print(f"Permanent error {response.status_code}. Skipping retries.")
                 return response
 
         except Exception as e:
             print(f"Attempt {attempt + 1} raised an exception: {e}")
 
         jitter = random.uniform(0.5, 1.5)
-        sleep_time = (base_delay * (2 ** attempt)) * jitter
+        sleep_time = (base_delay * (2**attempt)) * jitter
 
         print(f"Sleeping for {sleep_time:.2f} seconds...")
         time.sleep(sleep_time)
@@ -99,12 +107,15 @@ def fetch_with_backoff(url, headers=get_random_user_agent(), cookies=None, max_r
     print("Max retries reached. Mission failed.")
     return None
 
-def save_xlsx(xlsx_path: str, funds: list[dict], cols: list[str], sheet: str, start: int = 2):
+
+def save_xlsx(
+    xlsx_path: str, funds: list[dict], cols: list[str], sheet: str, start: int = 2
+):
     wb = openpyxl.load_workbook(xlsx_path)
     ws = wb[sheet]
     for fund in funds:
         for idx, val in enumerate(cols):
-            col = idx+1
+            col = idx + 1
             row = fund.get("index")
             if row:
                 start = row
@@ -112,8 +123,100 @@ def save_xlsx(xlsx_path: str, funds: list[dict], cols: list[str], sheet: str, st
                 cell = ws.cell(start, col, fund.get(val))
                 cell.style = "Hyperlink"
                 cell.hyperlink = fund.get(val)
+                cell.alignment = Alignment(wrap_text=True)
                 continue
-            ws.cell(start, col, fund.get(val))
+            cell = ws.cell(start, col, fund.get(val))
+            cell.alignment = Alignment(wrap_text=True)
         start += 1
     wb.save(xlsx_path)
     wb.close()
+
+
+def isin_from_text(text: str) -> str | None:
+
+    # 1. Relaxed regex to find ISINs even if they have a random space inside
+    isin_extract_rx = re.compile(r"[A-Z]{2}(?:[?\s]*[A-Z0-9]){9}[?\s]*[0-9]")
+    # 2. Strict regex to validate after cleaning
+    isin_strict_rx = re.compile(r"^[A-Z]{2}[A-Z0-9]{9}[0-9]$")
+    matches = isin_extract_rx.findall(text)
+
+    for match in matches:
+        # Clean the extracted string by removing all spaces
+        cleaned_isin = match.replace(" ", "")
+
+        # Strictly validate
+        if isin_strict_rx.match(cleaned_isin):
+            return cleaned_isin
+    return None
+
+
+def isin_from_pdf(url: str) -> str | None:
+    cookies = {
+        "ASP.NET_SessionId": "qlxftzziiojsdcjuzjwdlkts",
+    }
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        # 'Accept-Encoding': 'gzip, deflate, br, zstd',
+        "Sec-GPC": "1",
+        "Connection": "keep-alive",
+        # 'Cookie': 'ASP.NET_SessionId=qlxftzziiojsdcjuzjwdlkts',
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Priority": "u=0, i",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache",
+    }
+    headers.update(get_random_user_agent(["linux"]))
+    if len(url) == 0:
+        return ""
+
+    response = fetch_with_backoff(url, headers=headers, cookies=cookies)
+    if response:
+        if response.content:
+            try:
+                pdf_bytes = io.BytesIO(response.content)
+                reader = PdfReader(pdf_bytes)
+                text = ""
+                for page in reader.pages:
+                    text += page.extract_text() or ""
+            except Exception as e:
+                print(f"[{url}]isin_from_pdf: ", e)
+                return ""
+
+            isin = isin_from_text(text)
+            # print(text)
+            return isin
+    return None
+
+
+def create_spreadsheet(filename, sheet_names, column_names, col_width=25):
+    wb = openpyxl.Workbook()
+
+    # Remove default sheet
+    if "Sheet" in wb.sheetnames:
+        wb.remove(wb["Sheet"])
+
+    header_font = Font(name="Arial", size=12, bold=True, color="000000")
+    header_fill = PatternFill(
+        start_color="FFD700", end_color="FFD700", fill_type="solid"
+    )  # Gold background
+
+    for name in sheet_names:
+        ws = wb.create_sheet(title=name)
+        ws.append(column_names)
+
+        # Apply style and set column width
+        for i, cell in enumerate(ws[1], 1):
+            cell.font = header_font
+            cell.fill = header_fill
+
+            # Use the column letter (A, B, C...) to set width
+            column_letter = get_column_letter(i)
+            ws.column_dimensions[column_letter].width = col_width
+
+    wb.save(filename)

@@ -10,7 +10,11 @@ env:
   IDLE_TIME: 60
 
 jobs:
+  run-spreadsheet:
+    uses: ./.github/workflows/spreadsheet.yml
+
   run-mf-workflow:
+    needs: run-spreadsheet
     uses: ./.github/workflows/MF.yml
   
   run-email-workflow:

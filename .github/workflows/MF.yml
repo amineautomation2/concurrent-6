@@ -1,33 +1,87 @@
-name: MF
+name: MF Job
 
 on:
   workflow_call:
   workflow_dispatch:
 
+env:
+  max_workers: 8
+  sheet: 'Funds'
 
 jobs:
   worker:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: 
+        chunk: [0, 1, 2, 3, 4, 5, 6, 7]
     
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12.3'
+
+      - name: Pull latest changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cleanup CSV
+        run: rm -rf csv/*_${{env.sheet}}.csv
+
+      - name: Run Scraper Chunk
+        run: python main.py --id ${{ matrix.chunk }} --max ${{env.max_workers}}
+
+      - name: Upload Partial Data
+        uses: actions/upload-artifact@v4
+        with:
+          name: results-${{env.sheet}}-csv-${{matrix.chunk}}
+          path: csv/chelsea_${{matrix.chunk}}_${{env.sheet}}.csv
+          if-no-files-found: error
+
+  merge-results:
+    needs: worker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Pull latest changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.12.3'
 
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: Run Scraper Chunk
-        run: python main.py
-
-      - name: Upload Partial Data
-        uses: actions/upload-artifact@v6
+      - name: Download All Artifacts
+        uses: actions/download-artifact@v4
         with:
-          name: chelsea-financial
+          path: csv
+          pattern: results-${{env.sheet}}-csv-*
+          merge-multiple: true
+
+      - name: Merge and Commit
+        run: python main.py --merge
+
+      - name: Upload Spreadsheet
+        uses: actions/upload-artifact@v4
+        with:
+          name: chelsea-${{env.sheet}}
           path: spreadsheet
           if-no-files-found: error
 
