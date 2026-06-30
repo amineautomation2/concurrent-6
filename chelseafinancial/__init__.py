@@ -165,7 +165,7 @@ def chelsea_runner() -> list[dict]:
             url,
             headers=headers,
         )
-        print(res)
+        # print(res)
         if res is not None:
             json_data = res.json()
             if page == 1:
@@ -299,11 +299,9 @@ def process_per_worker(id_w: int, max_w: int, total: int) -> list[dict]:
                     f.update(dict(isin=isin))
                     code = info.get("TypeCode")
                     f.update(dict(type_code=code))
-                    if is_closed:
-                        f.update(dict(is_closed=is_closed))
+                    if is_closed is not None:
+                        f.update(dict(open=not is_closed))
                         # ws.cell(current_row_idx, 4, "Yes")
-                    else:
-                        f.update(dict(is_closed=is_closed))
                         # ws.cell(current_row_idx, 4, "No")
                 funds.append(f)
 
@@ -311,7 +309,7 @@ def process_per_worker(id_w: int, max_w: int, total: int) -> list[dict]:
                 # ws.cell(current_row_idx, 2).value = isin
                 # ws[f"D{current_row_idx}"] = "No" if fund["FundInfo"]["ClosedToNewInvestors"] else "Yes"
                 fund_idx += 1
-                if fund_idx == 3:
-                    break
+                # if fund_idx == 3:
+                #    break
                 delay(1, 2)
     return funds

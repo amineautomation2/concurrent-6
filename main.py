@@ -15,17 +15,15 @@ def main() -> None:
     args = parser.parse_args()
 
     xlsx_out = get_xlsx_filepath("chelsea_financial.xlsx")
-    cols = ["name", "isin", "url", "is_closed"]
+    cols = ["name", "isin", "url", "open"]
 
     if args.id and args.max:
         total = chelsea_total_pages()
+        print(total)
         data = process_per_worker(int(args.id), int(args.max), total)
         csv_file = f"chelsea_{int(args.id)}_Funds.csv"
         for d in data:
             d.pop("type_code")
-            is_closed = d.get("is_closed")
-            if is_closed is not None:
-                d.update(dict(is_closed=not is_closed))
 
         write_csv_by_id(csv_file, data, cols)
 
