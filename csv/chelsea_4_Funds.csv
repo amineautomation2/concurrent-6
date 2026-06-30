@@ -1,5 +1,201 @@
-name,isin,url,is_closed
+name,isin,url,open
 CT (Lux) Pan European Focus 3G Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KOTI/DC/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
 CT (Lux) UK Equities ZG GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/13C7/DC/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT American Select ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CF/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT American Select ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CG/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT American Smaller Companies (US) ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CS/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT American Smaller Companies (US) ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J6GS/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT American ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CD/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT American ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CE/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Asia Pacific ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CT/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Dollar Bond ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I8DE/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Dynamic Real Return ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J9MG/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Dynamic Real Return ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J9MH/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Emerging Market Bond ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CI/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT European Bond ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I8DD/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT European LI Ex Hedged GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/NSPZ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT European Select ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CH/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT European Select ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J6GZ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT European Smaller Companies ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I8DB/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT European Smaller Companies ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J6HB/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT European ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7DA/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT FTSE All-Share Tracker 2 Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/FL01/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT FTSE All-Share Tracker 2 Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KL89/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Bond ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GDYT/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Emerging Market Equity ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7DM/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Equity Income ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J6HI/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Equity Income ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7DH/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Extended Alpha INA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/CCI0/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Multi Asset Income ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KLWE/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Multi Asset Income ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KLWF/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Real Estate Securities 2 Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/K22K/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Select ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CN/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Select ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/K6GE/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Total Return Bond (GBP Hedged) C Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G6HN/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Global Total Return Bond (GBP Hedged) C Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G6HM/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT High Yield Bond ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KPXQ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT High Yield Bond ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CP/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Japan ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7DD/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Latin America ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CQ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT MM Navigator Distribution C Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G6HE/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT MM Navigator Distribution C Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G6HF/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT MM Navigator Distribution M Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/C2UR/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Monthly Extra Income ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7DE/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Adventurous B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRGV/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Adventurous B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/FMI3/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Balanced B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRGT/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Balanced B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/FMI1/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Cautious B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRGU/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Cautious B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/FKG4/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Defensive B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/JW3A/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Defensive B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/JW2Z/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Growth B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRGS/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Multi-Manager Universal Growth B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/FMI2/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT North American Systematic Equity 2 Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/QM42/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Pan European Focus ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7DQ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Property Growth & Income I Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/M3IJ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Property Growth & Income I Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/M3IK/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Responsible Global Equity 2 Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/IO51/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Responsible Global Equity 2 Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRGZ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Responsible Sterling Corporate Bond C Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRGR/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Responsible UK Equity 2 Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/IO50/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Responsible UK Equity 2 Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRGX/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Responsible UK Income 2 Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRGY/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Responsible UK Income 2 Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/IO47/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Select European Equity 2 Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J5T4/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Select European Equity 2 Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J5T5/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Select UK Equity Income 2 Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRHA/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Select UK Equity Income 2 Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/03IX/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Sterling Bond ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7DO/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Sterling Corporate Bond INI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/TH37/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Sterling Short Dated Corporate Bond Ini GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/MQB2/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT Strategic Bond ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GDYS/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Commercial Property 2 Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GRHH/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Commercial Property 2 Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KAU8/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Equity Alpha Income ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CW/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Equity Income ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CK/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Equity Income ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CJ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Growth and Income ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7DB/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Institutional INA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/TH38/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Mid 250 ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CZ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Monthly Income ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CR/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Property Authorised Investment INA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/A6Z5/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Property Authorised Investment INI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/A6Z6/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Smaller Companies ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J6HH/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Smaller Companies ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7DJ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Social Bond ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/JTYR/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Social Bond ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/JTYT/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK Sustainable Equity ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/MP4K/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK ZNA GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CL/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT UK ZNI GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G7CM/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+CT US Smaller Companies C Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/G6HL/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Davy UK GPS Cautious Growth A Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/MSDC/B/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Davy UK GPS Long Term Growth A Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/MSCQ/B/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Davy UK GPS Moderate Growth A Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/MSCW/B/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Dodge & Cox Global Stock Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/MCB2/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Dodge & Cox Global Stock Dis GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I9PN/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Dodge & Cox US Stock Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/MCB9/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Dodge & Cox US Stock Dis GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/JZ4L/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Dominion Dominion Global Trends - Luxury Consumer I GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0P16/DC/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Dominion Dominion Global Trends - Managed I GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GNUR/DC/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+EdenTree Sustainable European Equity B Dis GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/FR37/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
 M&G Global Emerging Markets I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/EFP6/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
 M&G Global Emerging Markets I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/EFP7/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Floating Rate High Yield IH Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KJHU/O/?specialunittype=CHDG&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Floating Rate High Yield IH Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KJHV/O/?specialunittype=CHDG&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Government Bond I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEO/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Government Bond I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEP/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global High Yield Bond I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEE/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global High Yield Bond I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEF/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Macro Bond I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0KNZ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Macro Bond I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0KNY/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Macro Bond IH Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/M61Y/O/?specialunittype=CHDG&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Strategic Value I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0QRM/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Strategic Value I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0QRN/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Sustain Paris Aligned I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZE2/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Sustain Paris Aligned I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZE3/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Themes I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZDR/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Global Themes I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZDS/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Income and Growth I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEI/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Income and Growth I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEJ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Index-Linked Bond I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEM/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Index-Linked Bond I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEN/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Japan I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEU/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Japan I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEV/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Japan Smaller Companies I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEY/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Japan Smaller Companies I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZEZ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Managed Growth I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZF6/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Managed Growth I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZF7/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G North American Dividend I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZCJ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G North American Dividend I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZCK/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G North American Value I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZFA/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G North American Value I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZFB/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Optimal Income I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J670/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Optimal Income I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J669/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Recovery I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/HVW0/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Recovery I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/HVV9/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Short Dated Corporate Bond I GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GTBO/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Smaller Companies I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZFS/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Smaller Companies I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZFT/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Strategic Corporate Bond I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZFW/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G Strategic Corporate Bond I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZFX/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G UK Income Distribution I Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZDL/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G UK Income Distribution I Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZDM/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G UK Inflation Linked Corporate Bond I Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KSE8/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G UK Inflation Linked Corporate Bond I Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KSE9/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G UK Sustain Paris Aligned I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZG0/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+M&G UK Sustain Paris Aligned I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0ZG1/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Balanced Managed Fund C Professional,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GVMD/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Continental European Growth Fund C Professional,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/ZJ54/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Continental European Growth Fund CH Hedged Professional,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/MTRC/O/?specialunittype=CHDG&priipproductcode=17200457&RangeCode=17200457,True
+Man Dynamic Income I H GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/BPGE/O/?specialunittype=CHDG&priipproductcode=17200457&RangeCode=17200457,True
+Man Dynamic Income I H Net-Dist Q GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/AHR22/O/?specialunittype=CHDG&priipproductcode=17200457&RangeCode=17200457,True
+Man High Yield Opportunities Fund Professional C,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/QE9M/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Income Fund C Professional Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/ZJ86/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Income Fund D Professional Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/ZJ87/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Japan Core Alpha C Professional Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/ZJ65/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Japan Core Alpha D Professional Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/DWE7/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Stockmarket Managed Fund C Professional,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/GVME/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Undervalued Assets Fund Professional C Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/JWHQ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Man Undervalued Assets Fund Professional D Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/JWHR/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Margetts International Strategy R Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29L/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Margetts Providence Strategy R Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29K/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Margetts Providence Strategy R Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29J/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Margetts Select Strategy R Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29M/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Margetts Venture Strategy R Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29N/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Matthews China I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/N6L0/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Matthews India I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/03XB/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Matthews Pacific Tiger I Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/N6K8/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+Matthews Pacific Tiger I Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/M0NX/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS AFH Tactical Core R Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I2AA/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS AFH Tactical Core R Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I2AB/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Future Money Dynamic Growth R Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29X/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Future Money Income R Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29Y/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Future Money Income R Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29Z/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Future Money Real Growth R Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29W/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Future Money Real Value R Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I29V/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Sentinel Defensive B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/11WK/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Sentinel Defensive B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/11WJ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Sentinel Enterprise B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/11WM/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Sentinel Enterprise B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/11WL/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Sentinel Universal B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/11WO/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MGTS Sentinel Universal B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/11WN/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Chelverton UK Equity Growth B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KN1B/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Chelverton UK Equity Growth B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/KN1A/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Chelverton UK Equity Income B Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/ADS2/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Chelverton UK Equity Income B Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J552/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI GAM Disruptive Growth A Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/I0EY/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Polen Capital Emerging Markets Growth A Acc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/INE9/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Polen Capital Emerging Markets Growth A Inc GBP,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/INE8/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Sinfonia Adventurous Growth Portfolio A Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/BXD1/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Sinfonia Balanced Managed Portfolio A Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/BXC3/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Sinfonia Cautious Managed Portfolio A Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/BXA7/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Sinfonia Income & Growth Portfolio A Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/BWZ9/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Sinfonia Income & Growth Portfolio A Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/BXA0/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Tatton Blended Aggressive Retail Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/ESP4/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Tatton Blended Defensive Retail Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0PCQ/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Tatton Blended Defensive Retail Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/0PCR/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Tatton Oak Capital Growth B,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/ESP6/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Tatton Oak Cautious Growth B,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/ESP8/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Thornbridge Global Opportunities C Acc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J3X8/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
+MI Thornbridge Global Opportunities C Inc,,https://digital.feprecisionplus.com/Pdf/chelseafinancial/en-gb/chelsea/J3X9/O/?specialunittype=ORDN&priipproductcode=17200457&RangeCode=17200457,True
